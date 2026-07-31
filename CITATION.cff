@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use or reference Markdown Desk, please cite it as below."
+type: software
+title: "Markdown Desk"
+abstract: "Self-contained, single-file HTML tool for reading, writing, and annotating local Markdown files: project workspace, highlights, notes, bookmarks, stylus ink and text labels, PDF/PNG/ZIP export, and PWA installability. Runs entirely in the browser with no server or telemetry."
+authors:
+  - family-names: "Michelis"
+    given-names: "Andrew P."
+    email: "andrew.michelis@knackmentor.com"
+    affiliation: "KnackMentor"
+version: "3.53"
+date-released: "2026-07-17"
+url: "https://knackmentor.com"
+license: Apache-2.0
+keywords:
+  - markdown
+  - editor
+  - annotation
+  - note-taking
+  - stylus
+  - single-file
+  - PWA
+  - offline-first

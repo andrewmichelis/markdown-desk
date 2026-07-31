@@ -1,0 +1,40 @@
+{
+ "name": "Markdown Desk",
+ "short_name": "MDesk",
+ "description": "Self-contained markdown reading, writing, annotation & snapshot tool \u2014 by KnackMentor.",
+ "id": "./markdown-desk.html",
+ "start_url": "./markdown-desk.html",
+ "scope": "./markdown-desk.html",
+ "display": "standalone",
+ "background_color": "#F6F5F0",
+ "theme_color": "#0E7C6B",
+ "icons": [
+  {
+   "src": "mdesk-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "mdesk-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ],
+ "file_handlers": [
+  {
+   "action": "./markdown-desk.html",
+   "accept": {
+    "text/markdown": [
+     ".md",
+     ".markdown",
+     ".mdown"
+    ],
+    "text/plain": [
+     ".txt"
+    ]
+   }
+  }
+ ]
+}
