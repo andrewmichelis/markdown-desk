@@ -4,7 +4,7 @@
 
 By [Andrew Michelis](https://knackmentor.com) · KnackMentor open tools · Apache-2.0 licensed
 
-Markdown Desk is a single self-contained `markdown-desk.html` (~220 KB, zero dependencies, zero telemetry) that turns Chrome or Edge into a Joplin-style workspace for your **local** markdown files: project trees, live-styled editing, highlights, notes, bookmarks, stylus ink and text labels, WYSIWYG PDF export, ZIP snapshots, and PWA installation. Everything stays on your machine.
+Markdown Desk is a single self-contained `markdown-desk.html` (one HTML file, zero dependencies, zero telemetry) that turns Chrome or Edge into a Joplin-style workspace for your **local** markdown files: project trees, live-styled editing, highlights, notes, bookmarks, stylus ink and text labels, WYSIWYG PDF export, ZIP snapshots, and PWA installation. Everything stays on your machine.
 
 ## Why
 
@@ -35,6 +35,20 @@ Works from `file://` or any static host. To install it as an app (PWA) with offl
 ## Privacy
 
 No network calls for core function, no analytics, no accounts. Data lives in your browser (IndexedDB / localStorage) and in `.mdesk` sidecar files you can read, diff, and delete yourself. `Ctrl+Shift+R` inside the tool wipes everything browser-side.
+
+## Related tools
+
+Part of a small suite of open tools by [Andrew Michelis](https://knackmentor.com). See them all at **[knackmentor.com/work](https://knackmentor.com/work/)**.
+
+- **[av-integrity](https://github.com/andrewmichelis/av-integrity)**: detect when a vehicle's sensors are lying (an open AV sensor-fusion and integrity monitor).
+- **[WebClip](https://github.com/andrewmichelis/webclip)**: save any web page exactly as you saw it (a pixel-faithful page-to-PDF Chrome extension).
+- **[HashTag Language](https://github.com/andrewmichelis/hashtag-lang)**: a small notation for facts, queries, and provenance (the shared substrate these tools speak).
+
+<sub>Built in the open, verified before shipping. The standard behind [KnackMentor](https://knackmentor.com).</sub>
+
+## Verifying a release
+
+Every release is tagged and signed under the author's key, and the full source is public here, so you can build from source and compare. Authorship and first-conception are independently timestamped (RFC-3161 / OpenTimestamps) as part of the author's provenance process. Release-artifact attestation via [Sigstore](https://www.sigstore.dev/) is planned. Any certification or curation offered on top stays opt-in, self-hosting is always allowed, and there is no certificate authority you are required to trust.
 
 ## License, attribution & citation
 
